@@ -9,8 +9,8 @@
     "baseUrl": "./src",
     "paths": {
       "src/*": ["./src/*"],
-      "modules/*": ["src/modules/*"],
-      "components/*": ["src/components/*"],
+      "modules/*": ["./src/modules/*"],
+      "components/*": ["./src/components/*"],
       "assets": ["./src/assets/*"],
       "styles": ["./src/styles/*"]
     },

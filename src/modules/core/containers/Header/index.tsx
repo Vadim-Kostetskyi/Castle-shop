@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import logo from "src/assets/Logo.png";
-import PhoneCall from "src/assets/svg/PhoneCall.tsx";
-import Heart from "src/assets/svg/Heart.tsx";
-import ShoppingCart from "src/assets/svg/ShoppingCart.tsx";
+import logo from "assets/Logo.png";
+import PhoneCall from "assets/svg/PhoneCall.tsx";
+import Heart from "assets/svg/Heart.tsx";
+import ShoppingCart from "assets/svg/ShoppingCart.tsx";
 import styles from "./index.module.scss";
 
 const Header = () => {
