@@ -1,0 +1,68 @@
+@use "styles/colors" as *;
+
+.headerWrapper {
+  & > div:first-child {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: #454f5b;
+    color: $whiteColor;
+
+    span:first-child {
+      justify-self: center;
+    }
+
+    span:last-child {
+      justify-self: end;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  & > div:last-child {
+    justify-content: space-between;
+    padding: 20px 100px;
+  }
+
+  & div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 100px;
+  }
+
+  a:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.image {
+  width: 32px;
+  height: 32px;
+
+  &:first-child {
+    margin-right: 10px;
+    fill: $skyBlue;
+  }
+
+  &:nth-last-child(2) {
+    margin-right: 25px;
+  }
+
+  &:not(:first-child) {
+    fill: $steelGray;
+  }
+}
+
+.phoneNumber {
+  margin-right: 30px;
+  color: $steelGray;
+}
