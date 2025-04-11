@@ -44,3 +44,23 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+
+.collection-swiper {
+  .swiper-button-prev {
+    &::after {
+      content: url(../assets/svg/ArrowSwiper.svg);
+    }
+    bottom: 50px !important;
+    top: auto;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .swiper-button-next {
+    @extend .swiper-button-prev;
+    transform: rotate(0.5turn);
+  }
+
+  .swiper-button-disabled {
+    display: none;
+  }
+}
