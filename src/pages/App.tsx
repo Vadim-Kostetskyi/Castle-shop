@@ -1,13 +1,9 @@
-// import Footer from "modules/core/containers/Footer";
-import Header from "modules/core/containers/Header";
-import Banner from "modules/core/product/conteiners/Banner";
+import HomePage from "./HomePage";
 
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
-      {/* <Footer /> */}
+      <HomePage />
     </>
   );
 }
