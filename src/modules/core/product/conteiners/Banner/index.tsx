@@ -1,10 +1,10 @@
 import { Autoplay, Pagination } from "swiper/modules";
 import { SwiperSlide } from "swiper/react";
-
+import { t } from "i18next";
 import CoreSwiper from "modules/core/components/CoreSwiper";
+import Button from "components/Button";
 import { slides } from "./slides";
 import styles from "./index.module.scss";
-import { t } from "i18next";
 
 export interface SlidesProps {
   id: number;
@@ -41,7 +41,7 @@ const Banner = () => {
           </SwiperSlide>
         ))}
         <div className={styles.wrapperButton}>
-          <button className={styles.button}>{t("addToCart")}</button>
+          <Button title={t("addToCart")} />
         </div>
       </CoreSwiper>
     </div>

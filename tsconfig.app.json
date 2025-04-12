@@ -12,7 +12,8 @@
       "modules/*": ["./src/modules/*"],
       "components/*": ["./src/components/*"],
       "assets": ["./src/assets/*"],
-      "styles": ["./src/styles/*"]
+      "styles": ["./src/styles/*"],
+      "helpers": ["./src/helpers/*"]
     },
 
     /* Bundler mode */
