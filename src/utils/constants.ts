@@ -12,3 +12,7 @@ export enum TimeConstants {
   DAY = 24 * HOUR,
   TWO_DAYS = 2 * DAY,
 }
+
+export const TELEPHONES = ["+380 96 662 82 56", "+380 68 186 23 36"];
+export const EMAILS = ["goldenService@gmail.com", "goldenService20@gmail.com"];
+export const ADDRESS = ["Україна", "м.Київ", "вул. Степана Бандери 14"];

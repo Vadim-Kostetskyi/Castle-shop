@@ -2,5 +2,7 @@
 
 .wrapper {
   background-color: $darkNavy;
-  color: $whiteColor;
+  & p {
+    color: $whiteColor;
+  }
 }
