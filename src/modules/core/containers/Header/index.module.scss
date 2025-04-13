@@ -16,21 +16,20 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 16px;
-    // text-align: end;
-  }
-}
-
-nav {
-  display: flex;
-  align-items: center;
-
-  img {
-    margin-right: 100px;
   }
 
-  a:not(:last-child) {
-    margin-right: 30px;
-  }
+  // & nav {
+  //   display: flex;
+  //   align-items: center;
+
+  //   img {
+  //     margin-right: 100px;
+  //   }
+
+  //   a:not(:last-child) {
+  //     margin-right: 30px;
+  //   }
+  // }
 }
 
 .image {

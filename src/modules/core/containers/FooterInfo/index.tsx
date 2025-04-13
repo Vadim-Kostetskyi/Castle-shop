@@ -13,33 +13,37 @@ const FooterInfo = () => {
           index ? (
             subtitles ? (
               <li>
-                <p>{t(title)}</p>
+                <p className={styles.title}>{t(title)}</p>
                 {subtitles.map(({ subtitle, text }) => (
                   <>
-                    <p>{t(subtitle)}</p>
+                    <p className={styles.subtitle}>{t(subtitle)}</p>
                     {text.map((item) => (
-                      <p>{item}</p>
+                      <p className={styles.text}>{item}</p>
                     ))}
                   </>
                 ))}
               </li>
             ) : (
               <li>
-                <p>{t(title)}</p>
-                {text ? text.map((item) => <p>{t(item)}</p>) : null}
+                <p className={styles.title}>{t(title)}</p>
+                {text
+                  ? text.map((item) => <p className={styles.text}>{t(item)}</p>)
+                  : null}
               </li>
             )
           ) : (
             <li>
               <nav>
-                <p>{t(title)}</p>
+                <p className={styles.title}>{t(title)}</p>
                 {text ? text.map((item) => <a href="#">{t(item)}</a>) : null}
               </nav>
             </li>
           )
         )}
       </ul>
-      <p>© 2021 Golden Soft All rights reserved.</p>
+      <div className={styles.copyright}>
+        <p>© 2021 Golden Soft All rights reserved.</p>
+      </div>
     </div>
   );
 };
