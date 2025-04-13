@@ -13,7 +13,8 @@
       "components/*": ["./src/components/*"],
       "assets": ["./src/assets/*"],
       "styles": ["./src/styles/*"],
-      "helpers": ["./src/helpers/*"]
+      "helpers": ["./src/helpers/*"],
+      "utils": ["./src/utils/*"]
     },
 
     /* Bundler mode */

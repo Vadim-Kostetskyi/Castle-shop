@@ -13,6 +13,7 @@ export default defineConfig({
       assets: path.resolve(__dirname, "src/assets"),
       styles: path.resolve(__dirname, "src/styles"),
       helpers: path.resolve(__dirname, "src/helpers"),
+      utils: path.resolve(__dirname, "src/utils"),
     },
   },
 });
