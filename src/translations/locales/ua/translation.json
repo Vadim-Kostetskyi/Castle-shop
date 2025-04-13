@@ -6,9 +6,23 @@
   "wholesale": "Оптовий продаж",
   "aboutUs": "Про нас",
   "addToCart": "Додати в кошик",
-  "happyCustomers": "Щасливих клієнтів",
-  "productsOfChoice": "Продуктів на вибір",
-  "salesPerDay": "Продажів на день",
-  "yearsOnMarket": "Років на ринку",
-  "why": "Чому"
+  "achievements": {
+    "happyCustomers": "Щасливих клієнтів",
+    "productsOfChoice": "Продуктів на вибір",
+    "salesPerDay": "Продажів на день",
+    "yearsOnMarket": "Років на ринку"
+  },
+  "benefits": {
+    "why": "Чому",
+    "benefit1": "У разі виявлення виробничого браку здійснюється компенсація у розмірі подвійної вартості кожного замка",
+    "benefit2": "Наносимо логотип вашої компанії на наш продукт згідно з узгодженими вимогами"
+  },
+  "categories": {
+    "categories": "Категорії",
+    "forHotels": "Для готелів",
+    "forLockers": "Для шафок",
+    "forOffices": "Для офісів",
+    "accessories": "Аксесуари",
+    "allCategories": "Усі категорії"
+  }
 }

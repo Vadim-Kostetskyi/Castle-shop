@@ -1,6 +1,6 @@
+import { useTranslation } from "react-i18next";
 import { Autoplay, Pagination } from "swiper/modules";
 import { SwiperSlide } from "swiper/react";
-import { t } from "i18next";
 import CoreSwiper from "modules/core/components/CoreSwiper";
 import Button from "components/Button";
 import { slides } from "./slides";
@@ -14,6 +14,8 @@ export interface SlidesProps {
 }
 
 const Banner = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={`${styles.swiper} collection-swiper`}>
       <CoreSwiper

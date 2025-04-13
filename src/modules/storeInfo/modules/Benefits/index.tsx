@@ -1,16 +1,18 @@
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 import { numbers } from "./statistics";
 import { STORENAME } from "utils/constants";
 import styles from "./index.module.scss";
 
 const Benefits = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.wrapper}>
-      <p>{t("why") + " " + STORENAME}?</p>
+      <p>{t("benefits.why") + " " + STORENAME}?</p>
       {numbers.map(({ text, Image }) => (
-        <div className={styles.item}>
+        <div key={text} className={styles.item}>
           <Image className={styles.image} />
-          <p>{text}</p>
+          <p>{t(text)}</p>
         </div>
       ))}
     </div>

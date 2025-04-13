@@ -4,14 +4,14 @@ import Like from "assets/svg/Like";
 export const numbers = [
   {
     Image: Return,
-    text: "У разі виявлення виробничого браку здійснюється компенсація у розмірі подвійної вартості кожного замка",
+    text: "benefits.benefit1",
   },
   {
     Image: Like,
-    text: "Наносимо логотип вашої компанії на наш продукт згідно з узгодженими вимогами",
+    text: "benefits.benefit2",
   },
   {
     Image: Return,
-    text: "У разі виявлення виробничого браку здійснюється компенсація у розмірі подвійної вартості кожного замка",
+    text: "benefits.benefit1",
   },
 ];

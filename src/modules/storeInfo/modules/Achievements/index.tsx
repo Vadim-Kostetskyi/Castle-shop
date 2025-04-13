@@ -1,8 +1,9 @@
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 import { numbers } from "./statistics";
 import styles from "./index.module.scss";
 
 const Achievements = () => {
+  const { t } = useTranslation();
   return (
     <div className={styles.wrapper}>
       {numbers.map(({ text, quantity }) => (
