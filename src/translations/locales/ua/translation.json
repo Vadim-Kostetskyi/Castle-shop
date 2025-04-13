@@ -24,5 +24,23 @@
     "forOffices": "Для офісів",
     "accessories": "Аксесуари",
     "allCategories": "Усі категорії"
+  },
+  "footer": {
+    "navigation": "Навігація",
+    "main": "Головна",
+    "catalog": "Каталог",
+    "wholesale": "Оптовий продаж",
+    "aboutUs": "Про нас",
+    "forOffices": "Наші контакти",
+    "telephones": "Телефони",
+    "ourAddress": "Наша адреса",
+    "deliveryAndPayment": "Доставка та оплата",
+    "guarantees": "Гарантії",
+    "returns": "Повернення товару",
+    "callYouBack": "Ми Вам передзвонимо",
+    "ifYouHaveAnyQuestions": "Якщо у вас виникли якісь питання або проблеми, заповніть форму і ми Вам передзвонимо.",
+    "yourName": "Ваше ім'я",
+    "your": "Ваш",
+    "send": "Відправити"
   }
 }
